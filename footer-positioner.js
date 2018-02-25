@@ -25,14 +25,14 @@
         }
 
         if (footerPositioner.debug) {
-            var variables = [
+            var heightVariables = [
                 { name: "windowHeight", value: windowHeight },
                 { name: "headerHeight", value: headerHeight },
                 { name: "contentHeight", value: contentHeight },
                 { name: "footerHeight", value: footerHeight },
                 { name: "pageHeight", value: pageHeight }
             ]
-            console.table(variables);
+            console.table(heightVariables);
         }
     };
 
