@@ -36,3 +36,8 @@ You can set the debounce delay for the footer position during browser resizing b
 ```javascript
 footerPositioner.delay = 250;
 ```
+
+You can remove the event listener that sets the footer position during window resizing with the script below.
+```javascript
+window.removeEventListener('resize', footerPositioner.setPosDebounce);
+```
